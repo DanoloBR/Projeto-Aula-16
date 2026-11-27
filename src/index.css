@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base. Substitui o CSS padrão do template Vite (fundo escuro, h1 gigante etc.). */
+@layer base {
+  body {
+    @apply m-0 min-h-screen bg-pergaminho font-corpo text-carvao;
+  }
+}
+
+/* Componentes reutilizáveis: a identidade visual fica concentrada aqui. */
+@layer components {
+  .titulo-pagina {
+    @apply font-titulo text-3xl text-brasa;
+  }
+  .botao {
+    @apply rounded-md bg-brasa px-4 py-2 text-white transition hover:opacity-90;
+  }
+  .botao-secundario {
+    @apply rounded-md border border-brasa px-4 py-2 text-brasa transition hover:bg-brasa hover:text-white;
+  }
+  .botao-perigo {
+    @apply rounded-md bg-red-700 px-3 py-2 text-white transition hover:bg-red-800;
+  }
+  .campo {
+    @apply rounded-md border border-ferro bg-white px-3 py-2 text-carvao focus:outline-none focus:ring-2 focus:ring-brasa;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "guildas": [
+    {
+      "id": "2511",
+      "nome": "Sentinelas"
+    },
+    {
+      "id": "7a3e",
+      "nome": "Guardiões do Crepúsculo"
+    }
+  ],
+  "membros": [
+    {
+      "id": "0ad5",
+      "nome": "Selene Nightingale",
+      "guildaId": "2511"
+    },
+    {
+      "id": "c81f",
+      "nome": "Thorin Escudo-de-Carvalho",
+      "guildaId": "7a3e"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
